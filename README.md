@@ -2,5 +2,5 @@
 Detection of failed login attempts using Splunk for SOC analysis
 
 ## Evidence
-![Failed Login Detection](screenshot-failed-login.png)
+![Failed Login Detection](screenshots/screenshot-failedlogin-detection.png)
 
