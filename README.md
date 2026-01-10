@@ -35,6 +35,10 @@ Detailed alert logic and configuration can be found in the project documentation
 - Requests originated from specific IP addresses
 - Events related to AWS API calls without sufficient permissions
 
+## MITRE ATT&CK Mapping
+The detected activity was mapped to relevant MITRE ATT&CK techniques,
+including Valid Accounts (T1078) and Account Discovery (T1087).
+
 ## Conclusion
 This project demonstrates basic SOC detection skills using Splunk,
 including log ingestion, query development, and security analysis.
