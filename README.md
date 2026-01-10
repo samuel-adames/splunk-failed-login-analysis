@@ -23,6 +23,13 @@ CloudTrail events with the error code `AccessDenied`.
 ## Evidence
 ![Failed Login Detection](screenshots/failed-login-basic.png)
 
+## Alerting
+A scheduled Splunk alert was configured to detect repeated AWS API authentication
+failures. The alert triggers when multiple AccessDenied events are observed from
+the same source IP or user within a defined time window.
+
+Detailed alert logic and configuration can be found in the project documentation.
+
 ## Findings
 - Multiple AccessDenied events detected
 - Requests originated from specific IP addresses
